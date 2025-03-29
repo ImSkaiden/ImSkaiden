@@ -9,6 +9,9 @@
   | || | | | | |___) |   | (_| | | (_| |  __| | | |
  |___|_| |_| |_|____/|_|\_\__,_|_|\__,_|\___|_| |_|
 ```
+
+<a href="https://mynickname.com/imskaiden"><img src="https://mynickname.com/img.php?id=1797820&sert=1" alt="Сертификат на никнейм ImSkaiden, зарегистрирован на https://t.me/imskaiden" border="0" /></a><br /><a href="https://mynickname.com/tags/instagram">Никнеймы для Инстаграма</a>
+
 ---
 ## ℹ About me
 
