@@ -27,7 +27,7 @@
 ## ⚙ My PC
 
 - Intel Core i5-3570K (3.40 GHz)
-- 10gb RAM
+- 16gb RAM
 - 1500gb HDD
 - 120gb SSD
 - Radeon RX 570
