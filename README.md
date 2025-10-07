@@ -26,11 +26,12 @@
 ---
 ## ⚙ My PC
 
-- Intel Core i5-3570K (3.40 GHz)
-- 16gb RAM
-- 1500gb HDD
+- Intel Xeon E5-2673 v3 @ 2.40GHz
+- 16gb RAM DDR4
+- 500gb*2 HDD
 - 120gb SSD
-- Radeon RX 570
+- 500gb M2 SSD
+- Radeon RX 580 8GB
 - Ethernet 300 mbit/s
 
 ---
