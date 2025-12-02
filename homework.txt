@@ -1,0 +1,17 @@
+program n;
+var A: array[1..10] of integer;
+    i, minVal: integer;
+    
+begin
+    minVal := 100;
+    writeln('input: ');
+    for i := 1 to 10 do
+    begin
+        A[i] := random(100);
+        write(A[i], ' ');
+        if A[i] < minVal then
+        minVal := A[i];
+    end;
+    writeln;
+    writeln('output: ', minVal);
+end.
