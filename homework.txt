@@ -1,17 +1,41 @@
-program n;
-var A: array[1..10] of integer;
-    i, minVal: integer;
-    
+program n1;
+
+var
+  A, B: array[1..999] of integer;
+  x: integer;
+  nA, nB, i: integer;
+
 begin
-    minVal := 100;
-    writeln('input: ');
-    for i := 1 to 10 do
-    begin
-        A[i] := random(100);
-        write(A[i], ' ');
-        if A[i] < minVal then
-        minVal := A[i];
-    end;
+  nA := 0;
+  nB := 0;
+
+  writeln('вводите числа(0 для выхода):');
+
+  repeat
+    readln(x);
+
+    if x = 0 then break;
+
+    if nA < 999 then begin
+      inc(nA);
+      A[nA] := x;
+
+      if x mod 2 <> 0 then begin
+        inc(nB);
+        B[nB] := x;
+      end;
+    end
+    else begin writeln('массив заполнен'); break; end;
+
+    write('A: ');
+    for i := 1 to nA do
+      write(A[i], ' ');
     writeln;
-    writeln('output: ', minVal);
+
+    write('B: ');
+    for i := 1 to nB do
+      write(B[i], ' ');
+    writeln;
+
+  until False;
 end.
